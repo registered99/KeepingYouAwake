@@ -6,6 +6,29 @@
     <description>The most recent changes for KeepingYouAwake.</description>
     <language>en</language>
     <item>
+        <title>Version 1.2: Activation Timer</title>
+        <description>
+        <![CDATA[
+            <ul>
+            <li>Activation timer</li>
+            <li><a href="http://sparkle-project.org">Sparkle</a> integration for updates
+
+            <ul>
+            <li>Sparkle will check for updates once a day</li>
+            <li>A second beta will follow in the coming days to test automatic updates</li>
+            </ul></li>
+            <li>This is <strong>beta</strong> software. If you notice any issues, please report them <a href="https://github.com/newmarcel/KeepingYouAwake/issues/">here</a></li>
+            </ul>
+        ]]>
+        </description>
+        <pubDate>Thu, 13 Nov 2014 20:45:00 +0100</pubDate>
+        <enclosure url="https://github.com/newmarcel/KeepingYouAwake/releases/download/1.2beta1/KeepingYouAwake-1.2beta1.zip"
+            sparkle:version="112"
+            sparkle:shortVersionString="1.2beta1"
+            length="1512924"
+            type="application/octet-stream" />
+    </item>
+    <item>
         <title>Version 1.1: Start at Login &amp; Developer ID</title>
         <description>
         <![CDATA[
