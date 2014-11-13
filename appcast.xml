@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+    <title>KeepingYouAwake Changelog</title>
+    <link>https://newmarcel.github.io/KeepingYouAwake/appcast.xml</link>
+    <description>The most recent changes for KeepingYouAwake.</description>
+    <language>en</language>
+    <item>
+        <title>Version 1.1: Start at Login &amp; Developer ID</title>
+        <description>
+        <![CDATA[
+            <p>This release adds a "Start at Login" menu item.</p>
+            <ul>
+                <li>Added Developer ID signing</li>
+            </ul>
+        ]]>
+        </description>
+        <pubDate>Thu, 13 Nov 2014 11:11:00 +0000</pubDate>
+        <enclosure url="https://github.com/newmarcel/KeepingYouAwake/releases/download/1.1/KeepingYouAwake-1.1.zip"
+            sparkle:version="110"
+            sparkle:shortVersionString="1.1"
+            length="357603"
+            type="application/octet-stream" />
+    </item>
+</channel>
+</rss>
