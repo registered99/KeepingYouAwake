@@ -1,49 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
-<channel>
-    <title>KeepingYouAwake Changelog</title>
-    <link>https://newmarcel.github.io/KeepingYouAwake/appcast.xml</link>
-    <description>The most recent changes for KeepingYouAwake.</description>
-    <language>en</language>
-    <item>
-        <title>Version 1.2: Activation Timer</title>
-        <description>
-        <![CDATA[
-            <ul>
-            <li>Activation timer</li>
-            <li><a href="http://sparkle-project.org">Sparkle</a> integration for updates
-
-            <ul>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>KeepingYouAwake Changelog</title>
+		<link>https://newmarcel.github.io/KeepingYouAwake/appcast.xml</link>
+		<description>The most recent changes for KeepingYouAwake.</description>
+		<language>en</language>
+		<item>
+			<title><![CDATA[Version 1.2: Activation Timer]]></title>
+			<description><![CDATA[<ul>
+    <li>There are no significant changes since beta1</li>
+    <li>Tweaked the experimental <em>(and hidden)</em> notifications</li>
+    <li>You can enable the notifications preview by pasting the following snippet into <em>Terminal.app</em>:<br />
+        <pre><code>defaults write info.marcel-dierkes.KeepingYouAwake info.marcel-dierkes.KeepingYouAwake.NotificationsEnabled -bool YES</code></pre>
+    </li>
+    <li>and to disable it again:<br />
+        <pre><code>defaults write info.marcel-dierkes.KeepingYouAwake info.marcel-dierkes.KeepingYouAwake.NotificationsEnabled -bool NO
+    </code></pre>
+    </li>
+</ul>]]></description>
+			<pubDate>Sun, 23 Nov 2014 10:00:00 GMT</pubDate>
+			<enclosure url="https://github.com/newmarcel/KeepingYouAwake/releases/download/1.2/KeepingYouAwake-1.2.zip" length="1516803" type="application/octet-stream" sparkle:version="120" sparkle:shortVersionString="1.2">
+			</enclosure>
+		</item>
+		<item>
+			<title><![CDATA[Version 1.2beta1: Activation Timer]]></title>
+			<description><![CDATA[<ul>
+    <li>Activation timer</li>
+    <li><a href="http://sparkle-project.org">Sparkle</a> integration for updates
+        <ul>
             <li>Sparkle will check for updates once a day</li>
             <li>A second beta will follow in the coming days to test automatic updates</li>
-            </ul></li>
-            <li>This is <strong>beta</strong> software. If you notice any issues, please report them <a href="https://github.com/newmarcel/KeepingYouAwake/issues/">here</a></li>
-            </ul>
-        ]]>
-        </description>
-        <pubDate>Thu, 13 Nov 2014 20:45:00 +0100</pubDate>
-        <enclosure url="https://github.com/newmarcel/KeepingYouAwake/releases/download/1.2beta1/KeepingYouAwake-1.2beta1.zip"
-            sparkle:version="112"
-            sparkle:shortVersionString="1.2beta1"
-            length="1512924"
-            type="application/octet-stream" />
-    </item>
-    <item>
-        <title>Version 1.1: Start at Login &amp; Developer ID</title>
-        <description>
-        <![CDATA[
-            <p>This release adds a "Start at Login" menu item.</p>
-            <ul>
-                <li>Added Developer ID signing</li>
-            </ul>
-        ]]>
-        </description>
-        <pubDate>Thu, 13 Nov 2014 11:11:00 +0000</pubDate>
-        <enclosure url="https://github.com/newmarcel/KeepingYouAwake/releases/download/1.1/KeepingYouAwake-1.1.zip"
-            sparkle:version="110"
-            sparkle:shortVersionString="1.1"
-            length="357603"
-            type="application/octet-stream" />
-    </item>
-</channel>
+        </ul>
+    </li>
+    <li>This is <strong>beta</strong> software. If you notice any issues, please report them <a href="https://github.com/newmarcel/KeepingYouAwake/issues/">here</a></li>
+</ul>]]></description>
+			<pubDate>Thu, 13 Nov 2014 18:00:00 GMT</pubDate>
+			<enclosure url="https://github.com/newmarcel/KeepingYouAwake/releases/download/1.2beta1/KeepingYouAwake-1.2beta1.zip" length="1512924" type="application/octet-stream" sparkle:version="112" sparkle:shortVersionString="1.2beta1">
+			</enclosure>
+		</item>
+		<item>
+			<title><![CDATA[Version 1.1: Start at Login & Developer ID]]></title>
+			<description><![CDATA[<p>This release adds a "Start at Login" menu item.</p>
+<ul>
+    <li>Added Developer ID signing</li>
+</ul>]]></description>
+			<pubDate>Thu, 13 Nov 2014 10:11:00 GMT</pubDate>
+			<enclosure url="https://github.com/newmarcel/KeepingYouAwake/releases/download/1.1/KeepingYouAwake-1.1.zip" length="357603" type="application/octet-stream" sparkle:version="110" sparkle:shortVersionString="1.1">
+			</enclosure>
+		</item>
+	</channel>
 </rss>
